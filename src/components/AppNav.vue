@@ -4,6 +4,9 @@
     <RouterLink class="nav-item" :to="{ name: 'categories' }">
       Categories
     </RouterLink>
+    <RouterLink class="nav-item" :to="{ name: 'favourites' }">
+      Favourites
+    </RouterLink>
   </nav>
 </template>
 

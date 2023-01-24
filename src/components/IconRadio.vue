@@ -11,9 +11,3 @@
     ></path>
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'MaterialSymbolsRadio'
-}
-</script>

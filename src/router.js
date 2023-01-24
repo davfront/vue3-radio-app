@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import CategoriesView from '@/views/CategoriesView.vue'
 import CategoryView from '@/views/CategoryView.vue'
+import FavouritesView from '@/views/FavouritesView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -26,6 +27,11 @@ const router = createRouter({
           })
         }
       ]
+    },
+    {
+      path: '/favourites',
+      name: 'favourites',
+      component: FavouritesView
     }
   ],
   linkActiveClass: 'is-active'
